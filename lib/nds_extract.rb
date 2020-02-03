@@ -7,6 +7,7 @@ def gross_for_director(director_data)
   gross = 0
   director_data.each do |movie|
     gross += movie[:worldwide_gross]
+  end
   return gross
 end
 
