@@ -17,4 +17,4 @@ def directors_totals(nds)
   nil
 end
 
-pp directors_totals
+pp(directors_totals)
